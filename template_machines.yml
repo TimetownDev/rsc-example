@@ -2,7 +2,7 @@ RSC_EXAMPLE_TEMPLATE_MACHINE:
   item_group: rsc_example_sub_group
   item:
     material: GOLD_BLOCK
-    name: "&d&l示例模板机器"
+    name: "&d&lExample Template Machine"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1:

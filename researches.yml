@@ -1,7 +1,7 @@
 # RykenSlimeCustomizer Wiki: https://rsc.himcs.top/#/file/research
 rsc_example_research:
   id: 367450001
-  name: "&e示例研究"
+  name: "&eExample Research"
   levelCost: 10
   currencyCost: 15
   items:
