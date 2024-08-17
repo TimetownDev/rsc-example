@@ -1,3 +1,4 @@
+# RykenSlimeCustomizer Wiki: https://rsc.hiworldmc.com/#/file/template_machines
 RSC_EXAMPLE_TEMPLATE_MACHINE:
   item_group: rsc_example_sub_group
   item:
@@ -7,10 +8,10 @@ RSC_EXAMPLE_TEMPLATE_MACHINE:
   recipe:
     1:
       material_type: slimefun
-      material: RSC_EXAMPLE_ITEM_2
+      material: RSC_EXAMPLE_RECIPED_ITEM_4
     2:
       material_type: slimefun
-      material: RSC_EXAMPLE_ITEM
+      material: RSC_EXAMPLE_RECIPED_ITEM_5
   consumption: 300
   capacity: 3000
   templateSlot: 0
@@ -25,27 +26,27 @@ RSC_EXAMPLE_TEMPLATE_MACHINE:
         input:
           1:
             material_type: slimefun
-            material: RSC_EXAMPLE_ITEM
+            material: RSC_EXAMPLE_RECIPED_ITEM_4
         output:
           1:
             material_type: slimefun
             material: RSC_EXAMPLE_MACHINE
-      item22item:
+      item2item:
         seconds: 5
         input:
           1:
             material_type: slimefun
-            material: RSC_EXAMPLE_ITEM_2
+            material: RSC_EXAMPLE_RECIPED_ITEM_5
         output:
           1:
             material_type: slimefun
-            material: RSC_EXAMPLE_ITEM
+            material: RSC_EXAMPLE_RECIPED_ITEM_4
     RSC_EXAMPLE_ITEM:
-      2item:
+      item:
         seconds: 1
         chooseOne: true
         output:
           1:
             material_type: slimefun
-            material: RSC_EXAMPLE_ITEM
+            material: RSC_EXAMPLE_RECIPED_ITEM_6
             chance: 15
