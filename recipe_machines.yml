@@ -2,7 +2,7 @@
 RSC_EXAMPLE_RECIPE_MACHINE:
   item_group: rsc_example_sub_group
   item:
-    name: "&eExample Recipe Machine"
+    name: "&e示例配方机器"
     material: beacon
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:

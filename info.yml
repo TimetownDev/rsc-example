@@ -1,9 +1,8 @@
 # RykenSlimeCustomizer Wiki: https://rsc.himcs.top/#/addon/learn-to-write-addons-information
-id: example
-name: "示例附属"
+id: rsc_test_addon
+name: "测试附属"
 depends: []
 pluginDepends: []
 version: "1.0"
-description: "RSC的示例附属"
-authors: ["mmmjjkx", "tinalness"]
-repo: "SlimefunReloadingProject/rsc-example"
+authors: ["guguguhello"]
+repo: ""

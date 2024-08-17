@@ -9,7 +9,7 @@ rsc_example_armor:
   helmet:
     id: RSC_EXAMPLE_HELMET
     material: LEATHER_HELMET
-    name: "&dExample Helmet"
+    name: "&d示例头盔"
     recipe_type: RSC_EXAMPLE_MULTIBLOCK_MACHINE_RECIPE_TYPE
     recipe:
       3:
@@ -18,7 +18,7 @@ rsc_example_armor:
   chestplate:
     id: RSC_EXAMPLE_CHESTPLATE
     material: LEATHER_CHESTPLATE
-    name: "&dExample Chestplate"
+    name: "&d示例胸甲"
     recipe_type: RSC_EXAMPLE_MULTIBLOCK_MACHINE_RECIPE_TYPE
     recipe:
       4:
@@ -27,7 +27,7 @@ rsc_example_armor:
   leggings:
     id: RSC_EXAMPLE_LEGGINGS
     material: LEATHER_LEGGINGS
-    name: "&dExample Leggings"
+    name: "&d示例护腿"
     recipe_type: RSC_EXAMPLE_MULTIBLOCK_MACHINE_RECIPE_TYPE
     recipe:
       5:
@@ -36,7 +36,7 @@ rsc_example_armor:
   boots:
     id: RSC_EXAMPLE_BOOTS
     material: LEATHER_BOOTS
-    name: "&dExample Boots"
+    name: "&d示例靴子"
     recipe_type: RSC_EXAMPLE_MULTIBLOCK_MACHINE_RECIPE_TYPE
     recipe:
       6:

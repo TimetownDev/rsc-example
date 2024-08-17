@@ -5,7 +5,7 @@ item:
   meta:
     ==: ItemMeta
     meta-type: UNSPECIFIC
-    display-name: '{"text":"Example Saved Item"}'
+    display-name: '{"text":"示例保存物品"}'
     enchants:
       DAMAGE_UNDEAD: 5
     repair-cost: 1

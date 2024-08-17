@@ -1,3 +1,3 @@
 function onEat(event, player, itemStack) {
-    sendMessage(player, "You have used the item");
+    sendMessage(player, "你使用了物品");
 }

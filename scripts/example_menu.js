@@ -1,7 +1,7 @@
 function onOpen(player) {
-    player.sendMessage("You have opened the menu");
+    player.sendMessage("你打开了菜单");
 }
 
 function onClose(player) {
-    player.sendMessage("You have closed the menu");
+    player.sendMessage("你关闭了菜单");
 }

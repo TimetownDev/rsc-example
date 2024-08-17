@@ -2,11 +2,11 @@
 RSC_EXAMPLE_SOLAR_GENERATOR:
   item_group: rsc_example_sub_group
   item:
-    name: "&cExample Solar Generator"
+    name: "&c示例太阳能发电机"
     material: daylight_detector
     lore:
-      - "&eDaytime Power Output: 1000J/t"
-      - "&bNighttime Power Output: 100J/t"
+      - "&e白天发电量: 1000J/t"
+      - "&b夜晚发电量: 100J/t"
   capacity: 100000
   dayEnergy: 1000
   nightEnergy: 100
