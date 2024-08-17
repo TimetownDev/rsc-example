@@ -1,8 +1,8 @@
-# RykenSlimeCustomizer Wiki: https://rsc.hiworldmc.com/#/file/machine
+# RykenSlimeCustomizer Wiki: https://rsc.himcs.top/#/file/machine
 RSC_EXAMPLE_MACHINE:
   item_group: rsc_example_sub_group
   item:
-    name: "&bExample Machine"
+    name: "&b示例机器"
     material: furnace
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -13,14 +13,13 @@ RSC_EXAMPLE_MACHINE:
   output: [31]
   script: example_machine
   work: 0
-
 RSC_EXAMPLE_MACHINE_ENERGY:
   item_group: rsc_example_sub_group
   item:
-    name: "&bExample Energy Machine"
+    name: "&b示例能源机器"
     material: smoker
     lore:
-    - '&eMachine tick (e.g., electricity usage) is handled in the script'
+    - '&e机器tick（如用电）在脚本中完成'
     - '&escript: example_machine_energy'
   recipe_type: ENHANCED_CRAFTING_TABLE
   energy:
@@ -34,14 +33,13 @@ RSC_EXAMPLE_MACHINE_ENERGY:
   input: []
   output: []
   script: example_machine_energy
-
 RSC_EXAMPLE_CAPACITOR_ENERGY:
   item_group: rsc_example_sub_group
   item:
-    name: "&bExample Capacitor Energy"
+    name: "&b示例能源电容"
     material: lantern
     lore:
-    - '&eMachine tick is completed in script'
+    - '&e机器tick在脚本中完成'
     - '&escript: example_capacitor_energy'
   recipe_type: ENHANCED_CRAFTING_TABLE
   energy:
@@ -55,14 +53,13 @@ RSC_EXAMPLE_CAPACITOR_ENERGY:
   input: []
   output: []
   script: example_capacitor_energy
-
 RSC_EXAMPLE_CONSUMER_ENERGY:
   item_group: rsc_example_sub_group
   item:
-    name: "&bExample Consumer Energy"
+    name: "&b示例能源用电器"
     material: lantern
     lore:
-    - '&eMachine tick is completed in script'
+    - '&e机器tick在脚本中完成'
     - '&escript: example_consumer_energy'
   recipe_type: ENHANCED_CRAFTING_TABLE
   energy:
@@ -76,14 +73,13 @@ RSC_EXAMPLE_CONSUMER_ENERGY:
   input: []
   output: []
   script: example_consumer_energy
-
 RSC_EXAMPLE_GENERATOR_ENERGY:
   item_group: rsc_example_sub_group
   item:
-    name: "&bExample Generator Energy"
+    name: "&b示例能源发电机"
     material: lantern
     lore:
-    - '&eMachine tick is completed in script'
+    - '&e机器tick在脚本中完成'
     - '&escript: example_generator_energy'
   recipe_type: ENHANCED_CRAFTING_TABLE
   energy:
@@ -97,14 +93,13 @@ RSC_EXAMPLE_GENERATOR_ENERGY:
   input: []
   output: []
   script: example_generator_energy
-
 RSC_EXAMPLE_CONNECTOR_ENERGY:
   item_group: rsc_example_sub_group
   item:
-    name: "&bExample Connector Energy"
+    name: "&b示例能源连接器"
     material: lantern
     lore:
-    - '&eMachine tick is completed in script'
+    - '&e机器tick在脚本中完成'
     - '&escript: example_connector_energy'
   recipe_type: ENHANCED_CRAFTING_TABLE
   energy:

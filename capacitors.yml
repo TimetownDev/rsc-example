@@ -1,8 +1,8 @@
-# RykenSlimeCustomizer Wiki: https://rsc.hiworldmc.com/#/file/capacitors
+# RykenSlimeCustomizer Wiki: https://rsc.himcs.top/#/file/capacitors
 RSC_EXAMPLE_CAPACITOR:
   item_group: rsc_example_sub_group
   item:
-    name: "&aExample Capacitor"
+    name: "&a示例电容"
     material: DIAMOND_BLOCK
   recipe_type: ENHANCED_CRAFTING_TABLE
   capacity: 10000

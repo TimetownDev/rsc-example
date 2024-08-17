@@ -1,7 +1,7 @@
-# RykenSlimeCustomizer Wiki: https://rsc.hiworldmc.com/#/file/recipe_type
+# RykenSlimeCustomizer Wiki: https://rsc.himcs.top/#/file/recipe_type
 DROP_FROM_BLOCK:
   material: GOLDEN_PICKAXE
-  name: "&eDrop this item by mining the block"
+  name: "&e挖掘方块掉落此物品"
 RSC_EXAMPLE_MULTIBLOCK_MACHINE_RECIPE_TYPE:
   material: CRAFTING_TABLE
-  name: "&eCraft this item in the Example Multiblock Machine"
+  name: "&e在示例多方块机器中制作此物品"

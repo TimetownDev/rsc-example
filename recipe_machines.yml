@@ -1,8 +1,8 @@
-# RykenSlimeCustomizer Wiki: https://rsc.hiworldmc.com/#/file/recipe_machines
+# RykenSlimeCustomizer Wiki: https://rsc.himcs.top/#/file/recipe_machines
 RSC_EXAMPLE_RECIPE_MACHINE:
   item_group: rsc_example_sub_group
   item:
-    name: "&eExample Recipe Machine"
+    name: "&e示例配方机器"
     material: beacon
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -24,6 +24,7 @@ RSC_EXAMPLE_RECIPE_MACHINE:
         1:
           material_type: slimefun
           material: RSC_EXAMPLE_RECIPED_ITEM_5
+        #可添加更多输入物品
       output:
         1:
           material_type: slimefun
@@ -34,10 +35,11 @@ RSC_EXAMPLE_RECIPE_MACHINE:
         1:
           material_type: slimefun
           material: RSC_EXAMPLE_RECIPED_ITEM_6
-      chooseOne: true
+        #可添加更多输入物品
+      chooseOne: true # 选择以下其中1个物品输出
       output:
         1:
-          chance: 10
+          chance: 10 # 设置概率
           material_type: slimefun
           material: RSC_EXAMPLE_MACHINE
         2:

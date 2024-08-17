@@ -1,8 +1,8 @@
-# RykenSlimeCustomizer Wiki: https://rsc.hiworldmc.com/#/file/multi-block-machine
+# RykenSlimeCustomizer Wiki: https://rsc.himcs.top/#/file/multi-block-machine
 RSC_EXAMPLE_MULTIBLOCK_MACHINE:
   item_group: rsc_example_sub_group
   item:
-    name: "&bExample Multiblock Machine"
+    name: "&b示例多方块机器"
     material: CRAFTING_TABLE
   recipe:
     5:

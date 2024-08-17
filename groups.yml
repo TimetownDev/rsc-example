@@ -1,27 +1,27 @@
-# RykenSlimeCustomizer Wiki: https://rsc.hiworldmc.com/#/file/groups
+# RykenSlimeCustomizer Wiki: https://rsc.himcs.top/#/file/groups
 rsc_example_normal_group:
   item:
-    name: "&aExample Normal Item Group"
+    name: "&a示例普通物品组"
     material: GRASS_BLOCK
 
 rsc_example_parent_group:
   type: nested
   item:
-    name: "&aExample Parent Item Group"
+    name: "&a示例父物品组"
     material: OAK_PLANKS
 
 rsc_example_sub_group:
   type: sub
   parent: "rsc_example_parent_group"
   item:
-    name: "&eExample Sub Item Group"
+    name: "&e示例子物品组"
     material: REDSTONE
 
 rsc_example_seasonal_group:
   type: seasonal
   month: 5
   item:
-    name: "&bExample Seasonal Item Group"
+    name: "&b示例季节性物品组"
     material: OAK_LEAVES
 
 rsc_example_locked_group:
@@ -29,33 +29,33 @@ rsc_example_locked_group:
   parents:
     - slimefun:basic_machines
   item:
-    name: "&lExample Locked Item Group"
+    name: "&l示例锁定物品组"
     material: REPEATER
 
 rsc_example_link_group:
   type: button
   parent: rsc_example_parent_group
   item:
-    name: "&eExample Link Group"
+    name: "&e示例链接组"
     material: COMMAND_BLOCK
   actions:
-  - "link https://rsc.hiworldmc.com/#/README"
+  - "link https://rsc.himcs.top/#/README"
 
 rsc_example_console_group:
   type: button
   parent: rsc_example_parent_group
   item:
-    name: "&eExample Console Command Group"
+    name: "&e示例控制台指令组"
     material: BEDROCK
   actions:
-  - "console say Example Console Command Group"
+  - "console say 示例控制台指令组"
 
 rsc_example_tier_2_group:
   type: sub
   parent: rsc_example_parent_group
   tier: 2
   item:
-    name: "&eExample Tier 2 Group"
+    name: "&e示例优先级2组"
     material: GOLD_ORE
 
 rsc_example_tier_10086_group:
@@ -63,7 +63,7 @@ rsc_example_tier_10086_group:
   parent: rsc_example_parent_group
   tier: 10086
   item:
-    name: "&eExample Tier 10086 Group"
+    name: "&e示例优先级10086组"
     material: IRON_ORE
 
 rsc_example_tier_1_group:
@@ -71,5 +71,5 @@ rsc_example_tier_1_group:
   parent: rsc_example_parent_group
   tier: 1
   item:
-    name: "&eExample Tier 1 Group"
+    name: "&e示例优先级1组"
     material: DIAMOND_ORE
