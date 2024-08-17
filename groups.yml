@@ -1,27 +1,27 @@
 # RykenSlimeCustomizer Wiki: https://rsc.hiworldmc.com/#/file/groups
 rsc_example_normal_group:
   item:
-    name: "&a示例普通物品组"
+    name: "&aExample Normal Item Group"
     material: GRASS_BLOCK
 
 rsc_example_parent_group:
   type: nested
   item:
-    name: "&a示例父物品组"
+    name: "&aExample Parent Item Group"
     material: OAK_PLANKS
 
 rsc_example_sub_group:
   type: sub
   parent: "rsc_example_parent_group"
   item:
-    name: "&e示例子物品组"
+    name: "&eExample Sub Item Group"
     material: REDSTONE
 
 rsc_example_seasonal_group:
   type: seasonal
   month: 5
   item:
-    name: "&b示例季节性物品组"
+    name: "&bExample Seasonal Item Group"
     material: OAK_LEAVES
 
 rsc_example_locked_group:
@@ -29,14 +29,14 @@ rsc_example_locked_group:
   parents:
     - slimefun:basic_machines
   item:
-    name: "&l示例锁定物品组"
+    name: "&lExample Locked Item Group"
     material: REPEATER
 
 rsc_example_link_group:
   type: button
   parent: rsc_example_parent_group
   item:
-    name: "&e示例链接组"
+    name: "&eExample Link Group"
     material: COMMAND_BLOCK
   actions:
   - "link https://rsc.hiworldmc.com/#/README"
@@ -45,17 +45,17 @@ rsc_example_console_group:
   type: button
   parent: rsc_example_parent_group
   item:
-    name: "&e示例控制台指令组"
+    name: "&eExample Console Command Group"
     material: BEDROCK
   actions:
-  - "console say 示例控制台指令组"
+  - "console say Example Console Command Group"
 
 rsc_example_tier_2_group:
   type: sub
   parent: rsc_example_parent_group
   tier: 2
   item:
-    name: "&e示例优先级2组"
+    name: "&eExample Tier 2 Group"
     material: GOLD_ORE
 
 rsc_example_tier_10086_group:
@@ -63,7 +63,7 @@ rsc_example_tier_10086_group:
   parent: rsc_example_parent_group
   tier: 10086
   item:
-    name: "&e示例优先级10086组"
+    name: "&eExample Tier 10086 Group"
     material: IRON_ORE
 
 rsc_example_tier_1_group:
@@ -71,5 +71,5 @@ rsc_example_tier_1_group:
   parent: rsc_example_parent_group
   tier: 1
   item:
-    name: "&e示例优先级1组"
+    name: "&eExample Tier 1 Group"
     material: DIAMOND_ORE

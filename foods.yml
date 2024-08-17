@@ -2,7 +2,7 @@
 RSC_EXAMPLE_FOOD:
   item_group: rsc_example_sub_group
   item:
-    name: "食物 1"
+    name: "Food 1"
     material: rotten_flesh
   script: example_food
   recipe_type: MAGIC_WORKBENCH

@@ -4,5 +4,5 @@ RSC_EXAMPLE_MOB_DROP:
   entity: BAT
   chance: 60
   item:
-    name: "&a示例生物掉落物品"
+    name: "&aExample Mob Drop Item"
     material: leather
