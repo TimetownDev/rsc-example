@@ -1,4 +1,4 @@
-# RykenSlimeCustomizer Wiki: https://rsc.hiworldmc.com/#/file/recipe_type
+# RykenSlimeCustomizer Wiki: https://rsc.himcs.top/#/file/recipe_type
 DROP_FROM_BLOCK:
   material: GOLDEN_PICKAXE
   name: "&e挖掘方块掉落此物品"
