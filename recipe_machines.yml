@@ -1,4 +1,4 @@
-# RykenSlimeCustomizer Wiki: https://rsc.himcs.top/#/file/recipe_machines
+# RykenSlimeCustomizer Wiki: https://rsc.hiworldmc.com/#/file/recipe_machines
 RSC_EXAMPLE_RECIPE_MACHINE:
   item_group: rsc_example_sub_group
   item:
@@ -35,11 +35,10 @@ RSC_EXAMPLE_RECIPE_MACHINE:
         1:
           material_type: slimefun
           material: RSC_EXAMPLE_RECIPED_ITEM_6
-        #可添加更多输入物品
-      chooseOne: true # 选择以下其中1个物品输出
+      chooseOne: true
       output:
         1:
-          chance: 10 # 设置概率
+          chance: 10
           material_type: slimefun
           material: RSC_EXAMPLE_MACHINE
         2:

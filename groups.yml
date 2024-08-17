@@ -1,4 +1,4 @@
-# RykenSlimeCustomizer Wiki: https://rsc.himcs.top/#/file/groups
+# RykenSlimeCustomizer Wiki: https://rsc.hiworldmc.com/#/file/groups
 rsc_example_normal_group:
   item:
     name: "&a示例普通物品组"
@@ -39,7 +39,7 @@ rsc_example_link_group:
     name: "&e示例链接组"
     material: COMMAND_BLOCK
   actions:
-  - "link https://rsc.himcs.top/#/README"
+  - "link https://rsc.hiworldmc.com/#/README"
 
 rsc_example_console_group:
   type: button
