@@ -2,7 +2,7 @@
 RSC_EXAMPLE_RECIPE_MACHINE:
   item_group: rsc_example_sub_group
   item:
-    name: "&e示例配方机器"
+    name: "&eExample Recipe Machine"
     material: beacon
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -24,7 +24,6 @@ RSC_EXAMPLE_RECIPE_MACHINE:
         1:
           material_type: slimefun
           material: RSC_EXAMPLE_RECIPED_ITEM_5
-        #可添加更多输入物品
       output:
         1:
           material_type: slimefun
@@ -35,11 +34,10 @@ RSC_EXAMPLE_RECIPE_MACHINE:
         1:
           material_type: slimefun
           material: RSC_EXAMPLE_RECIPED_ITEM_6
-        #可添加更多输入物品
-      chooseOne: true # 选择以下其中1个物品输出
+      chooseOne: true
       output:
         1:
-          chance: 10 # 设置概率
+          chance: 10
           material_type: slimefun
           material: RSC_EXAMPLE_MACHINE
         2:

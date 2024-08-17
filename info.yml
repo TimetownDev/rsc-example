@@ -1,6 +1,6 @@
 # RykenSlimeCustomizer Wiki: https://rsc.himcs.top/#/addon/learn-to-write-addons-information
 id: rsc_test_addon
-name: "测试附属"
+name: "Test Addon"
 depends: []
 pluginDepends: []
 version: "1.0"

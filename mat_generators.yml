@@ -2,7 +2,7 @@
 RSC_EXAMPLE_MATERIAL_GENERATOR:
   item_group: rsc_example_sub_group
   item:
-    name: "&c示例材料生成器"
+    name: "&cExample Material Generator"
     material: IRON_BLOCK
   capacity: 10000
   recipe_type: ENHANCED_CRAFTING_TABLE

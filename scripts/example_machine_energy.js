@@ -6,10 +6,10 @@ function tick(info) {
 
 function onPlace(event) {
     var player = event.getPlayer();
-    sendMessage(player, "方块被放置");
+    sendMessage(player, "The block has been placed");
 }
 
 function onBreak(event, itemStack, drops) {
     var player = event.getPlayer();
-    sendMessage(player, "方块被破坏");
+    sendMessage(player, "The block has been broken");
 }
