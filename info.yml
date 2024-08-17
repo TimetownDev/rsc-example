@@ -1,10 +1,8 @@
-# RykenSlimeCustomizer Wiki: https://rsc.hiworldmc.com/#/addon/learn-to-write-addons-information
-id: example
+# RykenSlimeCustomizer Wiki: https://rsc.himcs.top/#/addon/learn-to-write-addons-information
+id: rsc_test_addon
 name: "Test Addon"
 depends: []
 pluginDepends: []
-scriptListener: "script-listener"
 version: "1.0"
-description: "RykenSlimeCustomizer's example addon"
-authors: ["mmmjjkx", "tinalness"]
-repo: "SlimefunReloadingProject/rsc-example"
+authors: ["guguguhello"]
+repo: ""
