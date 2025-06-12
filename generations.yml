@@ -7,7 +7,7 @@ RSC_EXAMPLE_GENERATION:
       minHeight: 16
       most: 50
       amount: 6
-      chance: 0.8
-      mostChance: 0.7
+      maxSize: 12
+      minSize: 4
       replacement: stone
       environment: NORMAL
